@@ -1,0 +1,81 @@
+
+/* Sidebar Container */
+.sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #dbdbdb;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start ;
+    padding: 20px;
+  }
+  
+  /* Sidebar Logo */
+  .side_logo {
+    width: 120px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* List Group */
+  .list-group {
+    width: 100%;
+  }
+  
+  /* List Group Item */
+  .list-group-item {
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #262626;
+  }
+  
+  .list-group-item:hover {
+    background-color: #fafafa;
+  }
+  
+  /* Icon */
+  .list-group-item i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  /* Font Size for Text */
+  .fs-5 {
+    /* font-size: 1.2rem; */
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: light;
+    margin-left: 5px;
+  }
+  
+  .more {
+    position: fixed;
+    bottom: 3px;
+  }
+  
+  
+
+/* .list-group a:hover{
+    background-color: #1d2634;;
+    color: white;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 250px;
+}
+
+.brand-name{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}  */
+
+

@@ -1,0 +1,90 @@
+.message-container {
+    display: flex;
+  }
+  
+  .contentMsg-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 20px;
+  }
+  
+  .Card {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #232222;
+    border: 1px solid #434141;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .Msg {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f7f3f3;
+    padding: 16px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .Req {
+    color: #3897f0;
+  }
+  
+  /* .Msg-card {
+    padding: 16px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: black;
+  } */
+
+.Msg-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    color: rgb(247, 245, 245); 
+  }
+  
+  /* Avatar */
+  .Msg-card {
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    margin-left: 20px;
+  }
+ 
+  .Msg-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .Msg-content h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .Msg-content p {
+    margin: 8px 0; 
+  }
+
+  .Msg-content .Bio {
+    width: 200px;
+    margin: 8px 0; 
+    color: gray; 
+    font-size: 14px;
+  }
+  
+  
+  

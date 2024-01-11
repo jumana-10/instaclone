@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  height: 70vh;
+}
+
+.create-card {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(208, 207, 207, 0.1);
+}
+
+.createCard-header {
+  text-align: center;
+}
+
+.createCard-header span {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.createCard-header hr {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.create-card p {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+  margin-left: 0%;
+  margin-top: 20%;
+}
+
+.create-card button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 25%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.create-card button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* .create-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55%;
+    margin-top: 30%;
+    width: 30vw;
+    height: 50vh;
+    background-color: #55cf59;
+  }
+  .creatCard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding-top: 40px;
+  
+    color: white;
+    border-radius: 8px 8px 0 0;
+  }
+  .createCard-header span {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .createCard-header button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .createCard-header button:hover {
+    background-color: #55cf59; 
+  }
+  
+  .create-profile {
+    width: 70%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .create-profile span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .create-profile input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-profile button {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-profile button:hover {
+    background-color: #55cf59; 
+  }
+
+   */

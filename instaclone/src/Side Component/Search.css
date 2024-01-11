@@ -1,0 +1,74 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 500px;
+    margin-left: 500px;
+    height: 85vh;
+  }
+  
+  .search-box {
+    width: 100%;
+    /* max-width: 600px; */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .search-box input {
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  hr{
+    margin-right: 100px;
+  }
+
+  .Msg-card {
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+ 
+  .Msg-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .Msg-content h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .Msg-content p {
+    margin: 8px 0; 
+  }
+
+  .Msg-content .Bio {
+    width: 200px;
+    margin: 8px 0; 
+    color: gray; 
+    font-size: 14px;
+  }
+  
+  /* .search-box span {
+    display: block;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+  } */
+  
+
+  
